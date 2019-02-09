@@ -1,0 +1,108 @@
+/*
+    店铺页样式
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shopTitle {
+    width: 100%;
+    height: 150px;
+    background: url('../assert/bannerBackground.jpg') no-repeat center center;
+}
+
+.shopBanner {
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+    background: url('../assert/shopBanner.jpg') repeat-x;
+    position: relative;
+}
+
+.shopNavBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: green;
+}
+
+.shopNavBar>li {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: #4a4f2f;
+    padding: 0 15px;
+    border-right: 1px solid green;
+    float: left;
+}
+
+.shopContent {
+    width: 100%;
+    height: auto;
+    background: url('../assert/shopContentBackground.jpg') repeat-y;
+    padding-top: 10px;
+}
+
+.searchBar {
+    width: 55%;
+    height: 48px;
+    background-color: #dbdbdb;
+    margin: 0 auto;
+    display: block;
+    line-height: 48px;
+}
+
+.searchBar>h3,
+.searchBar>input,
+.searchBar>button {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.searchBar>ul {
+    display: block;
+    float: right;
+}
+
+.searchBar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.searchBar li::after {
+    content: "";
+}
+
+.searchBar>input {
+    border: 1px solid #ccc;
+}
+
+.lunbo {
+    width: 55%;
+    height: 475px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.lunbo>ul {
+    width: 5000px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lunbo li {
+    display: inline-block;
+    float: left;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
