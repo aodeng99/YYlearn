@@ -105,8 +105,9 @@ body {
     padding: 5px;
 }
 
-.headerTitleR>.btn {
-    width: 15%;
+.btn {
+    width: 82px;
+    height:40px;
     border: 3px solid;
     padding: 5px;
     padding-top: none;
@@ -126,4 +127,10 @@ body {
     background-color: black;
     color: #fff;
     border-color: black;
+}
+
+.btn.darkgreen {
+    background-color: green;
+    color: #fff;
+    border-color: green;
 }
