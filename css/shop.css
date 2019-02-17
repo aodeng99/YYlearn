@@ -302,7 +302,6 @@
 .select>ul>li>ul {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
 }
 
 .select>ul>li>ul>li {
@@ -312,10 +311,8 @@
     margin-top: 15px;
     font-size: 14px;
     padding-left: 10px;
-
+    box-sizing: border-box;
 }
-
-
 
 .searchBlock>.searchTitle {
     width: 100%;
