@@ -107,7 +107,7 @@ body {
 
 .btn {
     width: 82px;
-    height:40px;
+    height: 40px;
     border: 3px solid;
     padding: 5px;
     padding-top: none;
@@ -115,6 +115,7 @@ body {
     margin-right: 2px;
     cursor: pointer;
     font-weight: bold;
+    box-sizing: border-box;
 }
 
 .btn.red {
