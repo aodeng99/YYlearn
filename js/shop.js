@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var list = $("#sortList > li"); // 拿到  一级 li 
-    var childUl = $("#sortList > li>ul"); // 拿到  一级 li  下的 ul
-    var childList = $("#sortList > li>ul>li");
+    var childUl = $("#sortList > li >ul"); // 拿到  一级 li  下的 ul
+    var childList = $("#sortList > li >ul > li");
     for (var i = 0; i < list.length; i++) { // 循环遍历 
         $(list[i]).attr("id", "li" + i); // 动态   添加 属性  key：id  value： 名称  + 循环 i 变量
         $(childUl[i]).attr("id", "childUl" + i); // 同上
