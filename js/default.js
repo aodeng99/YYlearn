@@ -9,7 +9,7 @@ var string = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "
 *
 */
 function removeAdata(stringArr, queryString, low, high) {
-    var mid = Math.ceil((high - low) / 2 + low);
+    var mid = Math.floor((high - low) / 2 + low);
     if (queryString < stringArr[mid]) {
         return removeAdata(stringArr, queryString, low, mid - 1);
     } else if (queryString > stringArr[mid]) {
@@ -19,7 +19,7 @@ function removeAdata(stringArr, queryString, low, high) {
     }
 }
 
-var result = removeAdata(string, "h", 0, string.length);
+var result = removeAdata(string, "a", 0, string.length);
 console.log(result);
 string.splice(result, 1);
 console.log(string);
