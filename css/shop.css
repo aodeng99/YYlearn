@@ -1,54 +1,6 @@
 /*
     店铺页样式
 */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.shopTitle {
-    width: 100%;
-    height: 150px;
-    background: url('../assert/bannerBackground.jpg') no-repeat center center;
-}
-
-.shopBanner {
-    width: 55%;
-    height: 100%;
-    margin: 0 auto;
-    background: url('../assert/shopBanner.jpg') repeat-x;
-    position: relative;
-}
-
-.shopNavBar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    background-color: green;
-}
-
-.shopNavBar>li {
-    display: block;
-    font-size: 14px;
-    color: #fff;
-    line-height: 30px;
-    font-weight: bold;
-    background-color: #4a4f2f;
-    padding: 0 15px;
-    border-right: 1px solid green;
-    float: left;
-}
-
-.shopContent {
-    width: 100%;
-    height: auto;
-    background: url('../assert/shopContentBackground.jpg') repeat-y;
-    padding-top: 10px;
-}
-
 .searchBar {
     width: 55%;
     height: 48px;
@@ -113,7 +65,7 @@
 .picList {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     width: 5300px;
     height: 100%;
     background-color: aqua;
@@ -308,26 +260,10 @@
     vertical-align: -9%;
 }
 
-
-.rowFlex {
-    width: 55%;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.rowFlex>.flexLeft {
-    width: 20%;
-    height: auto;
-}
-
 .searchBlock {
     width: 100%;
     height: auto;
     background-color: #fff;
-    border-radius: 8px;
     border: 1px solid #ccc;
 }
 
@@ -335,7 +271,6 @@
     width: 100%;
     height: auto;
     margin-top: 10px;
-    border-radius: 8px;
     border: 1px solid #ccc;
 }
 
@@ -348,8 +283,6 @@
     color: #fff;
     padding-left: 5px;
     box-sizing: border-box;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 .select>ul {
@@ -357,8 +290,6 @@
     height: auto;
     padding-bottom: 15px;
     background-color: #fff;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 
 .select>ul>li {
@@ -392,8 +323,6 @@
     width: 100%;
     height: 25px;
     background-color: green;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 .searchBlock>.searchTitle>p {
@@ -460,12 +389,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 40%
-}
-
-.rowFlex>.flexRight {
-    width: 77%;
-    height: auto;
-    margin-left: 2%;
 }
 
 .rowFlex>.flexRight>.pic {
