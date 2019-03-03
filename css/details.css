@@ -1,273 +1,284 @@
 .shopDesc {
-    width: 100%;
-    height: 175px;
-    margin-bottom: 20px;
-    background-color: black;
-    border: 1px solid #ccc;
+  width: 100%;
+  height: 175px;
+  margin-bottom: 20px;
+  background-color: black;
+  border: 1px solid #ccc;
 }
 
 .shopDesc>.descTitle {
-    width: 100%;
-    height: 50px;
-    padding-left: 8px;
-    box-sizing: border-box;
-    font-size: 14px;
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    line-height: 50px;
+  width: 100%;
+  height: 50px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  line-height: 50px;
 }
 
 .shopDesc>.descBody {
-    width: 100%;
-    height: 125px;
-    border-top: none;
-    background-color: #fff;
-    padding: 5px;
-    box-sizing: border-box;
-    text-align: center;
+  width: 100%;
+  height: 125px;
+  border-top: none;
+  background-color: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .shopDesc>.descBody>.level {
-    border-right: none;
-    margin-top: 10px;
+  border-right: none;
+  margin-top: 10px;
 }
 
 .shopDesc>.descBody>.tag {
-    font-size: 8px;
-    color: #999;
-    margin-top: 10px;
+  font-size: 8px;
+  color: #999;
+  margin-top: 10px;
 }
 
 .shopDesc>.descBody>.tag>span {
-    background-color: #f04343;
-    color: #ffd800;
-    width: 18px;
-    height: 18px;
-    display: inline-block;
-    text-align: center;
-    line-height: 18px;
-    font-size: 5px;
-    margin-right: 5px;
+  background-color: #f04343;
+  color: #ffd800;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+  font-size: 5px;
+  margin-right: 5px;
 }
 
 .shopDesc>.descBody>.level>li,
 .shopDesc>.descBody>.level>li>span {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .shopDesc>.descBody>.buttonList {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .shopDesc>.descBody>.buttonList .btn {
-    width: 72px;
-    height: 26px;
-    font-size: 12px;
-    line-height: 13px;
-    border-width: 1px;
+  width: 72px;
+  height: 26px;
+  font-size: 12px;
+  line-height: 13px;
+  border-width: 1px;
 }
 
 .searchBlock {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 
 .select {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
 }
 
 .select>p {
-    width: 100%;
-    height: 25px;
-    background-color: green;
-    font-size: 14px;
-    line-height: 25px;
-    color: #fff;
-    padding-left: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  height: 25px;
+  background-color: green;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+  padding-left: 5px;
+  box-sizing: border-box;
 }
 
 .select>ul {
-    width: 100%;
-    height: auto;
-    padding-bottom: 15px;
-    background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  background-color: #fff;
 }
 
 .select>ul>li {
-    width: 100%;
-    height: auto;
-    color: black;
-    background-color: #fff;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-size: 14px;
+  width: 100%;
+  height: auto;
+  color: black;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .select>ul>li>ul {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .select>ul>li>ul>li {
-    width: 100%;
-    height: auto;
-    color: black;
-    margin-top: 15px;
-    font-size: 14px;
-    padding-left: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  color: black;
+  margin-top: 15px;
+  font-size: 14px;
+  padding-left: 10px;
+  box-sizing: border-box;
 }
 
-
-
 .searchBlock>.searchTitle {
-    width: 100%;
-    height: 25px;
-    background-color: green;
+  width: 100%;
+  height: 25px;
+  background-color: green;
 }
 
 .searchBlock>.searchTitle>p {
-    color: #fff;
-    font-size: 14px;
-    line-height: 25px;
-    margin-left: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  margin-left: 5px;
 }
 
 .searchBlock>.searchContent {
-    padding: 10px;
-    box-sizing: border-box;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .searchBlock>.searchContent input {
-    border: 1px solid #ccc;
-    margin-left: 1%;
+  border: 1px solid #ccc;
+  margin-left: 1%;
 }
 
 .searchBlock>.searchContent>.keyWord>.keyWordLeft {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .searchBlock>.searchContent>.keyWord input {
-    width: 90%;
+  width: 90%;
 }
 
 .searchBlock>.searchContent>.keyWord {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 14px;
-    margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .searchBlock>.searchContent>.keyWord>.keyWordLeft {
-    width: 30%;
+  width: 30%;
 }
 
 .searchBlock>.searchContent>.keyWord>.keyWordRight {
-    width: 70%;
+  width: 70%;
 }
 
 .searchBlock>.searchContent>.price input {
-    width: 30%;
+  width: 30%;
 }
 
 .searchBlock>.searchContent>ul {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .searchBlock>.searchContent li {
-    display: inline-block;
-    margin-right: 5%;
-    font-size: 14px;
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 14px;
 }
 
 .searchBlock>.searchContent>.btn {
-    width: 50px;
-    height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 40%
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40%
 }
 
 .flexRight>.tabList {
-    width: 100%;
-    height: 48px;
-    background-color: #fff;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
 }
 
 .flexRight>.tabList>li {
-    width: auto;
-    height: 46px;
-    font-size: 16px;
-    color: black;
-    border: 1px solid #fff;
-    display: inline-block;
-    line-height: 48px;
-    padding-left: 10px;
-    padding-right: 10px;
-    cursor: pointer;
+  width: auto;
+  height: 46px;
+  font-size: 16px;
+  color: black;
+  border: 1px solid #fff;
+  display: inline-block;
+  line-height: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 
 .flexRight>.shopDetail {
-    width: 100%;
+  width: 100%;
+  display: none;
 }
 
 .flexRight>.shopDetail>.shopInformation {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    background-color: #fff;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
 }
 
 .flexRight>.shopDetail>.shopInformation>p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .shopInformation>.title {
-    font-size: 12px;
-    color: #999;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  font-size: 12px;
+  color: #999;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .shopInformation>.parameters {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .parameters>li {
-    width: 33%;
-    font-size: 12px;
-    margin-bottom: 10px;
+  width: 33%;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
-.shopAssess {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
+.shopPics {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
 
-.shopAssess img {
-    width: 100%;
-    height: auto;
+.shopPics img {
+  width: 100%;
+  height: auto;
+}
+
+.shopAccess {
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+  background-color: red;
+}
+
+.accessTitle {
+  display: flex;
+  justify-content: flex-start;
 }
