@@ -6,4 +6,10 @@ $(document).ready(function() {
   $("#li2").click(function() {
     $("#childUl2").stop().slideToggle();
   });
+
+  var tabList = $(".tabList > li");
+  for (var i = 0; i < tabList.length; i++) {
+    $(tabList[i]).attr("id", "tab" + i);
+  }
+
 })
