@@ -41,3 +41,12 @@ function removeAdata(stringArr, queryString, low, high) {
     return mid;
   }
 }
+
+
+function Url(string) {
+  switch (string) {
+    case "shouye":
+      window.open("shop.html");
+      break;
+  }
+}

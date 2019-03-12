@@ -15,19 +15,26 @@
 <body>
   <div class="login">
     <h3>密码登录</h3>
-    <img src="assert\helloKitty.jpg" />
+    <img src="assert\panda.jpg" />
     <div class="inputList">
-      <input type="text" placeholder="please enter input userName" />
-      <input type="text" placeholder="please enter input password" />
-      <button type="button" name="button">登录</button>
+      <div class="userName">
+        <em class="icon iconfont icon-yonghu"></em>
+        <input type="text" placeholder="please enter input userName" />
+      </div>
+      <div class="password">
+        <em class="icon iconfont icon-suoding"></em>
+        <input type="text" placeholder="please enter input password" />
+      </div>
+      <button type="button" name="button" onclick="Url('shouye')">登录</button>
     </div>
     <ul class="textList">
       <li>忘记密码</li>
       <li>忘记会员名</li>
       <li>免费注册</li>
     </ul>
-
   </div>
+  <script src="js\jquery-3.3.1.js"></script>
+  <script src="js\default.js"></script>
 </body>
 
 </html>
