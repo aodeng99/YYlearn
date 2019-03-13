@@ -1,8 +1,12 @@
-$(document).ready(function() {
-  $("#button").click(function() {
-    /* Act on the event */
-    $("#protocol").css({
-      "display": "none"
-    });
-  });
-});
+var test = $("div");
+
+function isHidden(mark) {
+  switch (mark) {
+    case 'protocol':
+      $("#" + test[2].id).css({
+        "display": "none"
+      });
+      break;
+  }
+
+}
