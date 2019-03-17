@@ -41,6 +41,54 @@ body {
   margin: 100px auto 0 auto;
 }
 
+.phoneLogin {
+  width: 100%;
+  height: 470px;
+  background-color: #fff;
+}
+
+.phoneLogin>.phone {
+  width: 48%;
+  margin: 0 auto;
+}
+
+.phoneLogin>.phone>span {
+  margin-right: 10px;
+}
+
+.phoneLogin>.phone input, .userInfo input, .payMethod input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.phoneLogin>.btn, .userInfo>.btn, .payMethod>.btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #ff0036;
+  color: #fff;
+  width: 25%;
+}
+
+.userInfo, .payMethod {
+  text-align: center;
+}
+
+.userInfo p, .payMethod p {
+  margin-top: 20px;
+}
+
+.loginSucess {
+  display: flex;
+  justify-content: center;
+}
+
+.loginSucess em {
+  font-size: 48px;
+  color: green;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 .protocol {
   width: 100%;
   height: 470px;

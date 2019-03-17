@@ -22,8 +22,36 @@
     </ul>
 
     <div class="content">
-
-      <div class=""></div>
+      <!--  邮箱注册  -->
+      <div class="phoneLogin" id="phoneLogin">
+        <div class="phone">
+          <span>电子邮箱:</span>
+          <input type="text" placeholder="请输入电子邮箱" />
+        </div>
+        <button type="button" onclick="" class="btn">下一步</button>
+      </div>
+      <!--  用户信息  -->
+      <div class="userInfo">
+        <p>登录名：<span></span></p>
+        <p>请设置登录密码：<span>登录时验证，保护账号信息</span></p>
+        <p>登录密码：<input type="text" placeholder="设置你的登陆密码" /></p>
+        <p>登录确认：<input type="text" placeholder="请再次输入你的密码" /></p>
+        <p>设置用户名：<span>会员名一旦设置成功，无法修改</span></p>
+        <p>登录名：<input type="text" placeholder="请输入你的用户名"></p>
+        <button type="button" class="btn">下一步</button>
+      </div>
+      <!-- 支付方式-->
+      <div class="payMethod">
+        <p>银行卡号：<input type="text" placeholder="请输入银行卡号" /></p>
+        <p>持卡人姓名：<span>登录时验证，保护账号信息</span></p>
+        <p>身份证：<input type="text" placeholder="设置你的登陆密码" /></p>
+        <p>手机号：<input type="text" placeholder="请再次输入你的密码" /></p>
+        <button type="button" class="btn">下一步</button>
+      </div>
+      <!-- 注册状态 -->
+      <div class="loginSucess">
+        <span><em class="icon iconfont icon-jiuxu"></em>注册成功</span>
+      </div>
       <div class="protocol" id="protocol">
         <em class="icon iconfont icon-guanbi" onclick="Url('shouye')"></em>
         <h3>注册协议</h3>
