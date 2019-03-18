@@ -1,0 +1,154 @@
+.body {
+  width: 100%;
+}
+
+.orderInformation {
+  width: 64%;
+  margin: 0 auto;
+}
+
+.choiceAddress button {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  background-color: #f2f2fe;
+}
+
+.addressList {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addressBlock {
+  width: 237px;
+  height: 105px;
+  background: url("../assert/shopBlock.png");
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-right: 15px;
+}
+
+.addressBlock p {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.addressBlock p, .addressBlock span {
+  font-size: 14px;
+}
+
+.confirmOrder {
+  margin-top: 20px;
+}
+
+.orderHead {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.orderHead li {
+  width: 17%;
+  text-align: center;
+  margin-right: 3px;
+  border-bottom: 2px solid #b2d1ff;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.orderBody>p {
+  font-size: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #80b2ff;
+}
+
+.shopBlockList {
+  width: 100%;
+  height: auto;
+  background-color: #fbfcff;
+  padding-top: 15px;
+}
+
+.shopBlock {
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.shopBlock ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopBlock ul li {
+  width: 17%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.shopBlock ul li:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.shopBlock ul li:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+}
+
+.shopBlock ul li:nth-child(1) p {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.shopBlock ul li:nth-child(2) p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.shopBlock ul li:nth-child(3), .shopBlock ul li:nth-child(4), .shopBlock ul li:nth-child(5) {
+  font-size: 12px;
+}
+
+.shopBlock ul li:nth-child(6) {
+  text-align: right;
+  color: #ff0036;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.logistics {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f2f7ff;
+}
+
+.logistics.left {
+  width: 35%;
+  height: auto;
+  border-right: 2px solid #fff;
+}
+
+.logistics.right {
+  width: 65%;
+  height: auto;
+}
+
+.logistics.right p {
+  width: 100%;
+  display: block;
+}
