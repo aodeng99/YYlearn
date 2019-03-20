@@ -166,6 +166,12 @@ body {
   padding: 5px;
 }
 
+.flexContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
 .btn {
   width: 82px;
   height: 40px;

@@ -80,7 +80,7 @@
 .shopBlock {
   width: 100%;
   height: auto;
-  padding: 5px 10px;
+  padding: 10px 10px;
   box-sizing: border-box;
 }
 
@@ -132,6 +132,7 @@
 
 .logistics {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: flex-start;
   background-color: #f2f7ff;
@@ -143,12 +144,111 @@
   border-right: 2px solid #fff;
 }
 
+.logistics.left p {
+  width: 100%;
+  font-size: 12px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.logistics.left p input {
+  width: 70%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 3px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
 .logistics.right {
   width: 65%;
   height: auto;
+  display: block;
 }
 
-.logistics.right p {
+.logistics.right div {
   width: 100%;
   display: block;
+  box-sizing: border-box;
+}
+
+.logistics.right div:nth-child(1) p {
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  font-size: 12px;
+}
+
+.logistics.right div p {
+  padding: 5px 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.logistics.right div p span {
+  font-size: 12px;
+}
+
+.logistics.right div p span:nth-child(1) {
+  margin-left: 15px;
+}
+
+.logistics.right div p span:nth-last-child(1) {
+  color: #ff0036;
+  float: right;
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.orderFoot {
+  width: 100%;
+  height: auto;
+}
+
+.orderFoot .total {
+  width: 100%;
+  height: 45px;
+  background-color: #f2f7ff;
+  border-top: 2px solid #fff;
+  line-height: 45px;
+  font-size: 12px;
+  text-align: right;
+  border-bottom: 1px dotted #80b2ff;
+  vertical-align: middle;
+}
+
+.total span {
+  margin-right: 26px;
+  color: #ff0036;
+  margin-left: 10px;
+}
+
+.flexContainer {
+  justify-content: flex-end;
+}
+
+.flexContainer .submitOrder {
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ff0036;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.submitOrder p {
+  font-size: 14px;
+}
+
+.submitOrder p:nth-child(1) span {
+  font-size: 30px;
+  color: #ff0036;
+}
+
+.flexContainer .btn {
+  margin-top: 10px;
+  width: 20%;
+  border: none;
+  background-color: #ff0036;
+  color: #fff;
 }
