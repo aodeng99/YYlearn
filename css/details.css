@@ -224,7 +224,7 @@
 
 .flexRight>.shopDetail {
   width: 100%;
-  display: none;
+/*   display: none; */
 }
 
 .flexRight>.shopDetail>.shopInformation {
